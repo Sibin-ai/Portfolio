@@ -27,5 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('home-content').style.display = 'none';
       document.getElementById('cv-content').style.display = 'block';
     });
+
+    document.getElementById('research-link').addEventListener('click', function() {
+        document.getElementById('home-content').style.display = 'none';
+        document.getElementById('cv-content').style.display = 'none';
+        document.getElementById('research-content').style.display = 'block'; // Show research content
+    });
   });
   
