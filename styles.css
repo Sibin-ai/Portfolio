@@ -35,7 +35,7 @@ body, html {
         align-items: center; /* Center vertically */
         height: 100vh; /* Take full height of the viewport */
         text-align: center; /* Center text elements */
-        transform: translateY(-50px);
+        transform: translateY(-25px);
       }
   
   .profile-image {
